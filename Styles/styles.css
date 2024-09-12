@@ -1,0 +1,174 @@
+/* Fonts */
+
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/play-v19-cyrillic_cyrillic-ext_latin-regular.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/play-v19-cyrillic_cyrillic-ext_latin-700.woff2")
+    format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v32-cyrillic_cyrillic-ext_latin-regular.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-v32-cyrillic_cyrillic-ext_latin-500.woff2")
+    format("woff2");
+}
+/* Colors of project  */
+:root {
+  --Color-brand-light: #2b7fff;
+  --Color-brand-dark: #011c44;
+  --Color-white: #ffffff;
+  --Color-black: #000000;
+  --Color-grey: #747272;
+  --Button-description: #4a4a4a;
+}
+
+/* Common styles */
+/* Body */
+body {
+  color: var(--Color-brand-dark);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.17;
+}
+ul {
+  list-style-type: none;
+}
+address {
+  font-style: normal;
+}
+/* Header-links */
+.header-links {
+  color: var(--Color-brand-dark);
+  text-decoration: none;
+}
+.header-links:hover {
+  color: var(--Color-brand-light);
+  font-weight: 600;
+}
+
+/* Main section */
+/* Hero title */
+.hero-title {
+  color: var(--Color-brand-light);
+  text-transform: capitalize;
+  font-family: "Play", sans-serif;
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 0.8;
+}
+
+/* Button */
+.button-order {
+  background: var(--Color-brand-light);
+  border: 2px solid var(--Color-brand-light);
+  border-radius: 32px;
+
+  color: var(--Color-white);
+  font-weight: 600;
+  cursor: pointer;
+}
+.button-order:hover {
+  background-color: transparent;
+  color: var(--Color-brand-dark);
+}
+/* Button description */
+.button-description {
+  color: var(--Button-description);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* Titles of sections */
+.section-title {
+  font-family: "Play", sans-serif;
+  color: var(--Color-brand-dark);
+  text-align: center;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.15;
+}
+/* Перевтілюйтесь в beauty zone!  section */
+.section-title .brand-name-accent-light {
+  color: var(--Color-brand-light);
+  text-transform: capitalize;
+}
+.about-us-text {
+  font-size: 22px;
+  line-height: 1.7;
+}
+.about-us-text .brand-name-accent-dark {
+  color: var(--Color-brand-dark);
+  text-transform: capitalize;
+  font-weight: 600;
+}
+/* Чому люди обирають нас section */
+.section-title .accent {
+  color: var(--Color-brand-light);
+}
+.our-advantages {
+  color: var(--Color-black);
+  line-height: 1.3;
+}
+/* Наші процедури section */
+.Our_procedures_list {
+  background-color: var(
+    --Color-brand-dark
+  ); /* Тимчасове рішення, щоб було видно текст -потім видалити */
+  color: var(--Color-white);
+  font-size: 22px;
+}
+
+/* Як нас знайти section */
+.Contact_us {
+  background-color: var(
+    --Color-brand-dark
+  ); /* Тимчасове рішення, щоб було видно текст -потім видалити */
+  color: var(--Color-white);
+  font-size: 22px;
+  font-weight: 600;
+}
+.Contact_us .accent {
+  color: var(--Color-brand-light);
+}
+/* Footer */
+.footer-section {
+  background-color: var(
+    --Color-brand-dark
+  ); /* Тимчасове рішення, щоб було видно текст -потім видалити */
+}
+.footer-links {
+  color: var(--Color-white);
+  text-decoration: none;
+  font-size: 16px;
+}
+.footer-links:hover {
+  color: var(--Color-brand-light);
+  font-weight: 600;
+}
+.footer-copyright {
+  color: var(--Color-grey);
+  font-size: 13px;
+}
